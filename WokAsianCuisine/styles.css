@@ -1,0 +1,208 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'Krona One', sans-serif;
+    font-size: 48pt;
+    text-align: center;
+    padding: 20px 0;
+    color:#eee; 
+}
+
+ h2,h3,h5{
+    font-family: 'Krona One', sans-serif;
+ }
+
+h2{
+    color:#eee;  
+    text-align: center;
+ }
+
+li,a{
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #00ADB5;
+}
+
+a:visited{
+    color: #E84C3D;
+}
+
+.nav-link{
+    color: #eee;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14pt;
+    margin: 0 25px;
+}
+
+p{
+    font-size: 16x;
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+}
+
+/*title section*/
+#title{
+    background-color: #393E46; 
+}
+
+
+/* header section*/
+#header{
+   background-color: #222831;
+   height: 150px;
+   padding: 30px 0;
+}
+
+.headerIMG{
+    width: 100%;
+    height: auto;
+}
+
+/* Cater With Us section */
+#caterWithUs{
+    background-color: #eee;
+    height: 200px;
+    text-align: center;
+}
+
+.textCater{
+    padding: 50px 0;
+    color: #222831;
+}
+
+/* local cuisine & Chef Ly */
+
+
+.col-md-6{
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    background-color: #b30000;
+}
+
+.colIMG{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.colText{
+    text-align: center;
+    color: #eee;
+    margin-bottom: 20px;
+}
+
+/* footer */
+#footerSection{
+    background-color:#222831;
+    height: 150px;
+    color: #eee;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* contact page css */
+
+a.contactTitle{
+    color: #eee;
+}
+
+.contactTitle:hover{
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+.contactText{
+    text-align: center;
+    color: #eee;
+    margin: 50px 0;
+}
+
+.contactIMG{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/* form selectors */
+form{
+   width: 400px;
+    border-radius: 16px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+form{
+    color: #eee;
+}
+
+input{
+    display: block;
+    width: 310px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px inset gray;
+}
+
+label{
+    color: #eee;
+}
+
+select{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+fieldset{
+    width: 310px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+legend{
+    color: #eee;
+}
+
+#bodyText{
+    text-align: center;
+    color:#222831;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#buttons{
+    margin: 0 auto;
+    width: 230px;
+}
+
+#label-block{
+    display: block;
+}
+
+#myReset, #mySubmit{
+    width: 100px;
+    height: auto;
+    display: inline;
+}
+
+#preEmail, #prePhone{
+    display: inline;
+    width: 20px;
+    height: 17px;
+}
+
+textarea{
+    width: 350px;
+}
