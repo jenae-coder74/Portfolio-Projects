@@ -1,0 +1,75 @@
+
+
+@media (max-width: 980px) {
+	#signUp-form .zero-left-padding {
+		padding-left: 15px;
+	}
+	#signUp-form .for-weight {
+		padding-left: 0px;
+	}
+	#banner .banner-text {
+		margin-bottom: 40px;
+	}
+	#banner .banner-text {
+		margin-top: 50px;
+	}
+	#gtk .about-img,
+	#luhp .about-img {
+		margin-bottom: 50px;
+	}
+	#fyr .fyr-img {
+		margin-top: 50px;
+		text-align: left;
+	}
+	.embed-responsive-16by9 {
+	  margin-top: 50px;
+	}
+	#personal_injury-footer .abt,
+	#personal_injury-footer .ser {
+	  margin-bottom: 40px;
+	}
+	#personal_injury-footer .cnt {
+	  clear: both;
+	}
+	#personal_injury-footer .g-map {
+	  clear: right;
+	}	
+}
+
+@media (max-width: 640px) {
+	#banner .banner-text h1 {
+		font-size: 45px;
+	}
+	#banner .banner-text {
+		margin-bottom: 40px;
+	} 
+	#google_money-header {
+	  text-align: center;
+	}
+	#google_money-header .header-social {
+	  text-align: center;
+	  float: none !important;
+	  margin-top: 12px;
+	}
+	#signUp-form .zero-left-padding {
+		padding-left: 15px; 
+	}
+	#feature-info {
+		padding: 80px 0px 30px;
+	}
+	#feature-info .f-info-media {
+		margin-bottom: 50px;
+	}
+	
+}
+ @media (max-width: 480px) {
+ 	#signUp-form .btn-theme {
+ 		font-size: 18px;
+ 	} 	
+ }
+
+ @media (max-width: 360px) {
+ 	.section-heading {
+ 		font-size: 32px;
+ 	}	
+ }
